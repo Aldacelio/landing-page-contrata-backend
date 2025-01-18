@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://landing-page-contrata-frontend-i6frcp5lg-aldacelios-projects.vercel.app")
+@CrossOrigin(origins = "https://landing-page-contrata-frontend.vercel.app")
 public class DadosController {
 
     @Autowired
