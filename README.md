@@ -11,6 +11,18 @@ Backend da plataforma Contrata+, responsável pelo gerenciamento e processamento
 - [PostgreSQL](https://www.postgresql.org/)
 - [Swagger](https://swagger.io/)
 - [JPA/Hibernate](https://hibernate.org/)
+- [Docker](https://www.docker.com/)
+
+## 🌐 Deploy
+
+O projeto está hospedado na plataforma [Render](https://render.com/), utilizando uma imagem Docker personalizada para garantir a compatibilidade e facilitar o deploy.
+
+### 🐳 Docker
+
+O projeto inclui um Dockerfile configurado especificamente para o deploy no Render:
+- Utiliza a imagem base do Eclipse Temurin JDK 17
+- Otimizado para execução em ambiente de produção
+- Configurado para trabalhar com as variáveis de ambiente do Render
 
 ## 🔍 Features
 
