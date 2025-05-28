@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://landing-page-contrata-frontend.vercel.app")
+@CrossOrigin(origins = {"https://landing-page-contrata-frontend.vercel.app", "http://localhost:3000"})
 @Tag(name = "Dados", description = "API para gerenciamento de dados dos usuários")
 public class DadosController {
 
